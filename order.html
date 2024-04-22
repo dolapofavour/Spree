@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> COMPLETE ORDER </title>
+    <link rel="icon" href="spreelgl.png">
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    
+    <div id="holder">
+        <form action="" id="holder1">
+            <h3><img src="spreelgl.png"  width="30px"></h3>
+            <marquee behavior="smooth" direction="smooth"><p><b><i>...kindly complete your order and select a suitable payment option...</i></b></p></marquee>
+            <label for="">quantity:</label><input required type="number" name="" id="">
+            <p>select payment method</p>
+            <div>
+                <input required type="radio" name="card" ><label for="card">card</label>
+            <input required type="radio" name="card" ><label for="card">cash on delivery</label>
+            <input required type="radio" name="card" ><label for="card">online transfer</label><br>
+            </div>
+            <br>
+            <span>reciever's name:</span>
+            <input required type="text" name="txt" id="txt"><br>
+            <span>reciever's phone number:</span>
+            <input required type="text" name="txt" id="txt">
+            <br>
+            <span>delivery location</span><br>
+            <textarea name="address" required id="address" cols="30" rows="4"></textarea><br>
+            <br><input type="submit" onclick="document.location='valid.html'" value="proceed">
+        </form>
+    </div>
+</body>
+</html>

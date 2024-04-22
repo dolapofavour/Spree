@@ -1,0 +1,91 @@
+#phoneadv{
+                
+    overflow: hidden;
+    background:url('pexels-avinash-kumar-16004744.jpg');
+    background-size: 100%;
+    background-position: 0% 45%;
+    border-radius: 32px;
+width: 93%;
+height: 300px;
+margin: auto;
+margin-bottom: 4%;
+
+box-shadow: 5px 6px 7px rgba(0, 0, 0, 0.301);
+animation-name: backchange;
+animation-duration: 10s;
+transition: 1s;
+animation-iteration-count: infinite;
+
+}
+html{
+transition: 10s;
+scroll-behavior: smooth;
+}
+@keyframes backchange{
+0%{
+    transition: 1s;
+    background: url('1709310058051.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease;
+    background-position: 0% 10%;
+    
+}
+25%{
+    transition: 0.9;
+    background: url('1709310069904.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0% 25%;
+    
+}
+50%{
+    background: url('1709310159097.jpg');
+    background-repeat: no-repeat;
+    transition: 0.9;
+    background-size: cover;
+    background-position: 0% 10%;
+}
+75%{
+    background: url('1709310084070.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 20%;
+    transition: 0.9;
+}
+100%{
+    transition: 0.9;
+    background: url('1709310207728.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 50%;
+}
+}
+@media only screen and (max-width:800px){
+    #phoneadv{
+        overflow: hidden;
+        background:url('pexels-avinash-kumar-16004744.jpg');
+        background-size: 100%;
+        background-position: 0% 45%;
+        border-radius: 32px;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 6%;
+    
+    box-shadow: 5px 6px 7px rgba(0, 0, 0, 0.301);
+    animation-name: backchange;
+    animation-duration: 10s;
+    transition: 1s;
+    transition: ease;
+    animation-iteration-count: infinite;
+    
+    }
+    #phoneadv #dark table tr td #prod fieldset {
+        display: none;
+        }
+    html{
+    transition: 1s;
+    scroll-behavior: smooth;
+    }
+}

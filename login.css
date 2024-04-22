@@ -1,0 +1,215 @@
+body{
+    background: url('pexels-angela-roma-7319118.jpg');
+    background-size: cover;
+    background-position: 0% 60%;
+}   
+#cont1{
+    border-radius: 24px;
+    /* box-shadow: 2px 3px 4px 10px  rgba(0, 0, 0, 0.062); */
+    margin: auto;
+    margin-top: -5%;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.274);
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    padding-bottom: 30px;
+    background-size: cover;
+}
+#cont1 form{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    color: aliceblue;
+    display: block;
+    margin: auto;
+    background: transparent;
+    width: 320px;
+    height: 420px;
+    padding: 16px;
+    font-size: 25px;
+}
+input[type='text'], input[type='password']{
+    width: 80%;
+    accent-color: aliceblue;
+    border: none;
+    padding: 16px 27px;
+    background: none;
+    background-color: #00000071;
+    color: aliceblue;
+    /* border-left: 2px solid white; */
+    border-radius: 13px;
+/*         border-top-right-radius: 18px;
+    border-top-left-radius: 18px; */
+    
+}
+input[type='text']:active, input[type='password']:active{
+    background-color: rgba(143, 189, 216, 0.205);
+}
+fieldset{
+    
+    margin-top: 4px;
+    border-radius: 16px;
+    color: white;
+    border:3px solid rgb(199, 201, 182);
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange{
+    0%{
+        transition: 1s;
+        box-shadow: 5px 1px 50px rgba(255, 123, 0, 0.336);
+        border-color: rgba(255, 123, 0, 0.336);
+    }
+    25%{
+        transition: 1s;
+        box-shadow: 5px 1px 50px rgba(0, 255, 170, 0.267);
+        border-color: rgba(0, 255, 170, 0.267);
+    }
+    50%{
+        transition: 1s;
+        box-shadow: 5px 1px 50px rgba(255, 72, 0, 0.288);
+        border-color: rgba(255, 72, 0, 0.288);
+    }
+    75%{
+        transition: 1s;
+        box-shadow: 5px 1px 50px rgba(145, 255, 0, 0.253);
+        border-color: rgba(145, 255, 0, 0.253);
+    }
+    100%{
+        transition: 1s;
+        box-shadow: 5px 1px 50px rgba(255, 123, 0, 0.336);
+        border-color: rgba(255, 123, 0, 0.281);
+    }
+}
+input[type='checkbox'], p{
+    padding: 0%;
+    accent-color: #023222;
+    margin: 0%;
+}
+input[type='submit']{
+    width: 97%;
+    backdrop-filter: blur(2px);
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 45px;
+    transition: 0.9s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 0.5%;
+    background-color: rgb(19, 17, 18);
+    border: none;
+}
+input[type='submit']:hover{
+    border: 1px solid #fff;
+    background: #c4c4c4;
+    color: black;
+    filter: drop-shadow(5px 20px 40px black);
+transition: 0.8s;
+/* box-shadow: 2px 3px 2px 30px rgba(211, 6, 166, 0.219); */
+cursor: pointer;
+}
+td{
+    
+    font-size: 14px;
+}
+label,  input{
+    cursor: pointer;
+    font-size: 17px;
+    padding:10px 20px ;
+} 
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding: 0%;
+    margin-top: 2%;
+    /* margin-bottom: -5%; */
+    text-transform: capitalize;
+    color: #fff;
+    margin-left: 10%;
+    overflow: hidden;
+    transition: 1s;
+}
+
+h3:hover{
+    filter: drop-shadow(-5px 20px 40px rgb(255, 0, 0));
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 1s;
+    transform: rotate(360deg);
+    width: fit-content;
+}
+@media only screen and (max-width:800px){
+    body{
+    background: url('pexels-darina-belonogova-8788781.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}   
+
+input[type='submit']{
+    width: 97%;
+    backdrop-filter: blur(2px);
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 45px;
+    transition: 0.9s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 0.5%;
+    background-color: rgb(20, 19, 20);
+    border: none;
+}
+input[type='submit']:active{
+    border: 1px solid #fff;
+    background: #c4c4c4;
+    color: black;
+    filter: drop-shadow(5px 20px 40px black);
+transition: 0.8s;
+/* box-shadow: 2px 3px 2px 30px rgba(211, 6, 166, 0.219); */
+cursor: pointer;
+}
+
+#cont1{
+    border-radius: 24px;
+    /* box-shadow: 2px 3px 4px 10px  rgba(0, 0, 0, 0.062); */
+    margin: auto;
+    margin-top: -24%;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 90%;
+    height: 500px;
+    padding: 10px;
+    padding-bottom: 30px;
+    background-size: cover;
+}
+#cont1 form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    color: aliceblue;
+    display: block;
+    margin: auto;
+    background: transparent;
+    width: 85%;
+    height: 420px;
+    padding: 16px;
+    font-size: 25px;
+}
+fieldset{
+    
+    margin-top: 4px;
+    border-radius: 16px;
+    color: white;
+    border:3px solid rgb(199, 201, 182);
+   
+}
+
+
+
+}

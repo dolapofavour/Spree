@@ -1,0 +1,223 @@
+body{
+    background: url('pexels-max-fischer-5872364.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#holder{
+    overflow: hidden;
+    width: 95%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.623));
+    border-radius: 30px;
+    margin: auto;
+    max-height: 640px;
+    min-height: 640px;
+    padding: 1%;
+}
+#holder1{
+    overflow: hidden;
+    background-color: #05273581;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+    color: aliceblue;
+    margin: auto;
+    width: 35%;
+    padding: 1%;
+    max-height: 620px;
+    min-height: 620px;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+input{
+    accent-color: rgb(54, 1, 54);
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+#holder1 input[type='text'], input[type='number']{
+    display: block;
+    background: rgba(255, 255, 255, 0.753);
+    padding: 10px 20px;
+    border: none;
+    color: #111;
+    width: 230px;
+    transition: 1s;
+    cursor: pointer;
+    accent-color: rgb(54, 1, 54);
+    border-radius: 16px;
+}
+span, label{
+    cursor: pointer;
+    font-size: 17px;
+    padding-bottom: 1%;
+    color: #fafafa;
+}
+textarea{
+    resize: none;
+    color: #111;
+    width: 255px;
+    height: 60px;
+    overflow: x;
+    cursor: pointer;
+    border-radius: 16px;
+    border: none;
+    transition: 1s;
+    accent-color: rgb(54, 1, 54);
+    color: aliceblue;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.479);
+}
+#holder1 div{
+    width:fit-content;
+    background-color: rgba(54, 1, 54, 0.411);
+    padding: 20px 10px ;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    
+    transition: 0.6s;
+    border: 1px solid rgb(54,1,54);
+}
+#holder1 div:hover{
+    border: 1px solid rgb(238, 206, 238);
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    filter: drop-shadow(5px 20px 40px rgb(255, 17, 255));
+    transition: 0.9s;
+}
+input[type='submit']{
+    background-color: #111;
+    border: none;
+    padding: 14px 20px;
+    width: 260px;
+    cursor: pointer;
+    margin-left: 20%;
+    border-radius: 20px;
+    transition: 0.8s;
+}
+input[type='submit']:hover{
+    width: 200px;
+    background:black;
+    border-radius: 24px;
+    transition: 0.9s;
+    margin-left: 27%;
+}
+h3{
+    margin-top: -5px;
+    margin-left: 20px;
+    
+}
+@media only screen and (max-width:800px){
+    body{
+    background: url('pexels-max-fischer-5872364.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position:45% 12%;
+
+}
+#holder{
+    overflow: hidden;
+    width: 95%;
+    background: linear-gradient( 45deg,transparent, rgba(0, 0, 0, 0.623), transparent);
+    border-radius: 30px;
+    margin: auto;
+    max-height: 640px;
+    min-height: 640px;
+    padding: 1%;
+    
+}
+#holder1{
+    overflow: hidden;
+    background-color: #05273581;
+    backdrop-filter: blur(5px);
+    border-radius: 24px;
+    color: aliceblue;
+    margin: auto;
+    width: 90%;
+    padding: 3%;
+    height: auto;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+input{
+    accent-color: rgb(54, 1, 54);
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+#holder1 input[type='text'], input[type='number']{
+    display: block;
+    background: rgba(255, 255, 255, 0.753);
+    padding: 10px 20px;
+    border: none;
+    color: #111;
+    width: 200px;
+    transition: 1s;
+    cursor: pointer;
+    accent-color: rgb(54, 1, 54);
+    border-radius: 16px;
+}
+#holder1  div label{
+    font-size: 11px;
+}
+span, label{
+    cursor: pointer;
+    font-size: 14px;
+    padding-bottom: 1%;
+    color: #fafafa;
+}
+textarea{
+    resize: none;
+    color: #111;
+    width: 230px;
+    height: 60px;
+    overflow: x;
+    cursor: pointer;
+    border-radius: 16px;
+    border: none;
+    transition: 1s;
+    accent-color: rgb(54, 1, 54);
+    color: aliceblue;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.479);
+}
+#holder1 div{
+    width:fit-content;
+    background-color: rgba(54, 1, 54, 0.411);
+    padding: 20px 10px ;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    transition: 0.6s;
+    margin-left: 4%;
+    border: 1px solid rgb(54,1,54);
+}
+#holder1 div:active{
+    border: 1px solid rgb(238, 206, 238);
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    filter: drop-shadow(5px 20px 40px rgb(255, 17, 255));
+    transition: 0.9s;
+}
+input[type='submit']{
+    background-color: #111;
+    border: none;
+    padding: 14px 20px;
+    width: 260px;
+    cursor: pointer;
+    margin-left: 10%;
+    border-radius: 20px;
+    transition: 0.8s;
+}
+input[type='submit']:active{
+    width: 200px;
+    background:black;
+    border-radius: 24px;
+    transition: 0.9s;
+    margin-left: 17%;
+}
+h3{
+    margin-top: -5px;
+    margin-left: 20px;
+
+}
+}

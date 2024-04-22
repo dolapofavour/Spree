@@ -1,0 +1,1078 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#super, #android{
+    display: none;
+}
+body{
+    background-color: silver;
+}
+#end{
+    overflow: hidden;
+}
+nav img{
+    padding-top: 13px;
+    margin-left:40px;
+    width: 100px;
+    transition: 1s;
+    padding-bottom:0px;
+}
+nav img:hover{
+    filter: drop-shadow(-5px 20px 40px  rgb(255, 0, 51));
+    transition: 1s;
+    transform: scale(1.2);
+}
+nav{
+    padding-bottom:0px;
+     overflow: hidden;
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    margin-left: 40%;
+    padding-bottom:0px;
+}
+#conn #navbar span, #closebtn{
+    display: none;
+}
+nav ul li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: purple;
+    font-weight: 400;
+    background: transparent;
+    padding: 0px 10px ;
+    padding-top: 40px;
+    
+    padding-bottom:0px;
+    list-style-type: none;
+    transition: 1s;
+    
+}
+nav a:hover{
+    background-color: transparent;
+    transition: 1s;
+    color:purple;
+   
+}
+#p1{
+    padding-top: 25px; 
+    margin-left:0.3%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(153, 14, 42);
+    font-weight: 600;
+    font-size: 300%;
+}
+nav li a{
+    color: chocolate;
+    padding-bottom:0px;
+    font-size: 15px;
+    
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#conn{
+    overflow: hidden;
+    background: url('pexels-nataliya-vaitkevich-6214471.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height: 70%;
+    
+}
+.search:hover{
+    transition: 0.7s;
+    filter: drop-shadow(-5px 20px 40px rgba(0, 255, 149, 0.288));
+
+}
+.search{
+    overflow: hidden;
+    accent-color: rgba(196, 2, 2, 0.596);
+    margin-top: 20px;
+    border: 1px solid crimson;
+    margin-left: 32%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.452);
+    backdrop-filter: blur(10px);
+    width: 35%;
+    transition: 0.7s;
+    border-radius: 24px;
+    align-items: center;
+    padding: 14px;
+}
+input[type='search']{
+    padding: 10px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 24px;
+   
+}
+
+.search input[type='button']{
+    color:aliceblue;
+    background-color: red;
+    border: none;
+    padding: 5px;
+    font-weight: 700;
+    transition: 1s;
+
+}
+.search input[type='button']:hover{
+    color:aliceblue;
+    background-color: chocolate;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.mybar{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.322);
+    color: aliceblue;
+    padding: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -3px;
+    text-align: center;
+    overflow: hidden;
+}
+#ad1 {
+    overflow: hidden;
+    display: flex;
+    padding: 10px;
+    width: 95%;
+    height: 300px;
+    background: transparent;
+    backdrop-filter: blur(3px);
+}
+#ad1 img{
+    margin-left: 3%;
+    overflow: hidden;
+    padding: 1%;
+    border-radius: 32px;
+    width: 30%;
+    aspect-ratio: 3/3;
+    transition: 0.5s;
+}
+#ad1 img:hover{
+    cursor: pointer;
+    overflow: hidden;
+    transform: scale(0.9);
+    filter: drop-shadow(-5px 20px 40px rgba(0, 255, 170, 0.432));
+
+}
+#words{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#deals{
+    
+    padding: 1%;
+    overflow: hidden;
+    display: flex;
+    background-color: white;
+    border-radius: 24px;
+    width: 70%;
+    height:250px;
+    margin-left: 15%;
+    
+}
+
+#deals a{
+    border-radius: 16px;
+    width: 230px;
+    height: 230px;
+    padding-left: 1px;
+    margin-inline: 5px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+#deals a:hover{
+    filter: drop-shadow(-5px 20px 40px rgba(255, 0, 51, 0.575));
+    padding: 1%;
+    text-align: center;
+    transition: 0.8s;
+}
+html{
+    scroll-behavior: smooth;
+}
+#deals a p{
+    background-color: rgb(153, 14, 42);
+    width: 106px;
+    transition: 0.8s;
+    padding: 5px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 600;
+    color: aliceblue;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+}
+/* for deal2 */
+
+#ws{
+    margin-left: 20%;
+    background: url('pexels-andrea-piacquadio-3768597.jpg');
+    max-width: 25%;
+    background-size: cover;
+    padding:0%;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+}
+#wo{
+    background: url('pexels-anna-shvets-5069440.jpg');
+    max-width: 25%;
+    background-size: cover;
+    padding:0%;
+    background-position: 0% 20%;
+    background-repeat: no-repeat;
+}
+#ms{
+    background: url('pexels-hassan-ouajbir-1306248.jpg');
+    max-width: 25%;
+    background-size: cover;
+    padding:0%;
+    background-position: 0% 45%;
+    background-repeat: no-repeat;
+}
+#gs{
+    background: url('Screenshot_20240212-184229.jpg');
+    max-width: 25%;
+    background-size: cover;
+    padding:0%;
+    background-position: 0% 45%;
+    background-repeat: no-repeat;
+}
+#cs{
+    background: url('pexels-cottonbro-studio-10617260.jpg');
+    max-width: 25%;
+    background-size: cover;
+    padding:0%;
+    background-position: 0% 55%;
+    background-repeat: no-repeat;
+}
+.week1{
+    color: #ccc;
+    background-color: rgb(90, 88, 86);
+    width: 20%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-size: 150%;
+    border-radius: 8px;
+    padding: 0.5%;
+    text-align: center;
+    animation-name: colorChange;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    transition: 1s;
+}
+@keyframes colorChange{
+    0%{
+        transition: 1s;
+        transform: scale(1.0);
+        background-color: rgb(217, 219, 221);  
+        color: black; 
+    }
+    50%{
+        transform: scale(1.1);
+        transition: 1s;
+        color: rgb(24, 20, 20);
+        background-color: rgb(77, 75, 75);    }
+    100%{
+        transform: scale(1.0);
+        background-color: grey;
+        transition: 1s;
+    }
+    
+}
+#whole{
+    background-color: rgb(235, 233, 233);
+}
+table tr td {
+    overflow: hidden;
+    text-align: center;
+    color: rgb(233, 168, 27);
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 7px 55px;
+}
+table tr td a{
+    padding: 2px 4px;
+    overflow: hidden;
+    color: aliceblue;
+    font-family:monospace;
+    font-size: 16px;
+}
+p{
+    text-align: center;
+    padding:2% 2%;
+}
+#terms{
+    padding: 2%;
+    background-color: aqua;
+
+}
+table tr td a:hover{
+    color: rgb(255, 187, 0);
+    overflow: hidden;
+    margin: 0%;
+    transition: 0.7s;
+   
+    
+}
+#end table{
+    
+    
+    padding: 3px 3px;
+    align-items: center;
+    color: aliceblue;
+    margin: auto;
+    overflow: hidden;
+    vertical-align: middle;
+    text-transform: capitalize;
+    font-family: monospace;
+    width: 70%;
+}
+input[type='text']{
+    accent-color: rgba(185, 19, 163, 0.575);
+    border-radius: 16px;
+    padding: 8px 20px;
+    border: 1px solid rgb(231, 231, 149);
+    transition: 1.5s;
+}
+ #end input[type='text']:hover{
+    filter: drop-shadow(-5px 20px 40px rgba(241, 111, 4, 0.911) );
+    transition: 1s;
+ }
+a{
+    text-decoration: none;
+}
+
+#end hr{
+margin: auto;
+    color: white;
+}
+#end tr td {
+    overflow: hidden;
+    padding: 8px 30px;
+}
+#lst tr td a{
+    font-family: monospace;
+    color: white;
+    overflow: hidden;
+}
+#lst tr td a:hover{
+    border-right: 0px none;
+    border-left: 0px none;
+    overflow: hidden;
+    color: chocolate;
+}
+#exl{
+    display: flex;
+    overflow: hidden;
+    width: 75%;
+    background:rgba(0, 0, 0, 0.377);
+    /* backdrop-filter: blur(5px); */
+    margin: auto;
+    padding: 1%;
+}
+#exl video{
+    margin-left: 30px;
+    width: 45%;
+    border-radius: 16px;
+}
+#exl .p11{
+    color: antiquewhite;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+#exl div{
+    margin-left: 20px;
+}
+#exl div .p12{
+    color: antiquewhite;
+    text-align: left;
+    padding: 2%;
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-left: -30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#exl table tr td{
+    padding: 8px 18px ;
+}
+#exl table tr td span{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+#exl table tr td{
+    background-color: aliceblue;
+    width: 30%;
+    border-radius: 14px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.603);
+}
+#exl button{
+    padding: 15px 25px;
+    width: 200px;
+    border-radius: 16px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    font-weight: 700;
+    transition: 0.7s;
+}
+#exl button:hover{
+    background-color: dimgray;
+    transition: 0.7s;
+    box-shadow: 2px 3px 2px 20px rgba(0, 0, 0, 0.329);
+    cursor: pointer;
+}
+#end{
+    background-color: purple;
+    color: aliceblue;
+}
+#words{
+    font-family: monospace;
+    text-transform: capitalize;
+    background-color: rgba(35, 35, 36, 0.404);
+}
+#logo{
+    border: 2px solid aliceblue;
+    border-radius: 13px ;
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 8px;
+    margin-left: 42.5%;
+}
+ #logo img{
+    aspect-ratio: 2/1;
+    padding: 0%;
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+}
+#logo img:hover{
+    transform: rotate(360deg) scale(0.3);
+    transition: 1s;
+}
+#sets{
+            text-transform: capitalize;
+            font-family: monospace;
+            display: flex;
+            margin: auto;
+            overflow: hidden;
+            margin-top: 15px;
+            width: 80%;
+            padding: 2%;
+            background-color: #fafafa;
+            border-radius: 24px;
+        }
+        #sets div p{
+            color: black;
+            text-align: left;
+            font-family: monospace;
+        }
+        #sets div{
+            padding: 1.5%;
+            margin-left: 5.5%;
+            border-radius: 24px;
+            box-shadow: -1px 7px 10px rgba(0, 0, 0, 0.158);
+            
+        }
+        #sets div img:hover{
+            transform: scale(0.9);
+            transition: 0.6s;
+        }
+        #sets div img{
+        transition: 0.5s;
+        cursor: pointer;
+        object-fit: cover;
+        border-radius: 16px;
+        width: 160px;
+        height: 190px;
+        }
+        #sets div button{
+            background-color: rgb(53, 1, 53);
+            color: #fafafa;
+            text-transform: capitalize;
+            padding: 6px 18px;
+            border: 2px solid rgb(53, 1, 53);
+            cursor: pointer;
+            transition: 0.7s;
+            border-radius: 10px;
+        }
+        #sets div button:hover{
+            transition: 0.7s;
+            background-color: transparent;
+            backdrop-filter: blur(20px);
+            color: rgb(53, 1, 53);
+            border: 2px solid rgb(53, 1, 53);
+        }
+        #sets div #btn2{
+            border: 2px solid rgb(53, 1, 53);
+            background: transparent;
+            height: 35px;
+            width: 35px;
+            padding: 0%;
+            transform: scale(0.9)
+        }
+        
+        #sets div #btn2 img{
+            width: 24px;
+            filter: drop-shadow(4px 10px 5px rgb(53, 1, 53));
+            height: 20px;
+        }
+        #sets div #btn2:hover{
+            opacity: 0.8;
+            transform: scale(1.0) rotate(-360deg);
+            border: 2px solidrgb(53, 1, 53);
+            color: #fafafa;
+            background-color: rgba(53, 1, 53, 0.527);
+        }
+       #closebtn{
+        display: none;
+       }
+        /* mobile 
+        view */
+        /* mobile 
+        view */
+        /* mobile 
+        view */
+        /* mobile 
+        view */
+        @media only screen and (max-width: 760px){
+            #conn{
+                overflow: hidden;
+                background: url('pexels-alan-quirván-3981749.jpg');
+                background-size: cover;
+                padding-top: 5%;
+                background-position: 1% 40%;
+                width: 100%;
+                min-height: 70%;
+                
+            }
+            #words{
+                display: none;
+            }
+            #conn #navbar img{
+                width: 37px;
+                margin-left: 8%;
+                height: 35px;
+            }
+            #conn #navbar #p1{
+                color: rgb(214, 214, 16);
+                font-size: 20px;
+            }
+             #conn #exl button{
+                padding: 15px 25px;
+                width: 200px;
+                border-radius: 16px;
+                background-color: rgb(0, 0, 0);
+                color: aliceblue;
+                margin-left: 20%;
+                border: 2px solid white;
+                font-weight: 700;
+                transition: 0.7s;
+            }
+            #conn #exl button:active{
+                background-color: dimgray;
+                transition: 0.7s;
+                box-shadow: 2px 3px 2px 20px rgba(0, 0, 0, 0.329);
+                cursor: pointer;
+            }
+            #conn #navbar ul{
+                color: black;
+                background:#fff;
+                
+                margin: 0px;
+                padding: 0px;
+            }
+            #conn #navbar li{
+                font-size: 13px;
+                font-weight: 100;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+
+            .search{
+            background: rgba(0, 0, 0, 0.24);
+            border: none;
+            align-items: center;
+            padding: 3px;
+            width: 80%;
+            height: 38px;
+            margin: 0%;
+            padding: 5px;
+            overflow: hidden;
+            margin-left: 30px;
+        }
+        #storr{
+            visibility: hidden;
+        }
+        input[type='search']{
+        
+            padding: 10px;
+                width: 60%;
+                background-color: rgb(255, 255, 255);
+                border: none;
+                border-radius: 24px;
+               
+            }
+        .mybar{
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.322);
+            color: aliceblue;
+            padding: 3% 0%;
+            margin: 0%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 11px;
+            text-align: center;
+            overflow: hidden;
+        }
+        #ad1 {
+            overflow: hidden;
+            display: flex;
+            padding: 7px;
+            width: 95%;
+            height: auto;
+            background: transparent;
+            backdrop-filter: blur(3px);
+        }
+        #ad1 img{
+            margin-left: 3%;
+            overflow: hidden;
+            padding: 1%;
+            border-radius: 10px;
+            width: 30%;
+            aspect-ratio: 6/6;
+            transition: 0.5s;
+        }
+        #ad1 img:active{
+            cursor: pointer;
+            overflow: hidden;
+            transform: scale(0.9);
+            filter: drop-shadow(-5px 20px 40px rgba(0, 255, 170, 0.432));
+        
+        }
+
+        #exl{
+            display: block;
+            overflow: hidden;
+            width: 95%;
+            background:rgba(0, 0, 0, 0.377);
+            /* backdrop-filter: blur(5px); */
+            margin: auto;
+            padding: 1%;
+        }
+        #exl video{
+            margin-top: 10px;
+            margin-left: 30px;
+            width: 82%;
+            border-radius: 16px;
+        }
+        #exl .p11{
+            color: antiquewhite;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+            text-transform: capitalize;
+            font-weight: 700;
+        }
+        #exl div .p12{
+            color: antiquewhite;
+            text-align: left;
+            padding: 2%;
+            text-transform: capitalize;
+            font-size: 13px;
+            margin-left: -30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #exl table tr td{
+            padding: 4px 9px ;
+        }
+        #exl table tr td span{
+            font-weight: 500;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+        }
+        #exl button{
+            padding: 15px 25px;
+            width: 200px;
+            border-radius: 16px;
+            background-color: black;
+            color: aliceblue;
+            border: none;
+            margin-bottom: 20px;
+            margin-left: 60px;
+            font-weight: 700;
+            transition: 0.7s;
+        }
+        #exl button:active{
+            background-color: dimgray;
+            transition: 0.7s;
+            box-shadow: 2px 3px 2px 20px rgba(0, 0, 0, 0.329);
+            cursor: pointer;
+        }
+        .week1{
+            color: #ccc;
+            background-color: rgb(90, 88, 86);
+            width: 40%;
+            margin: auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 20px;
+            font-size: 100%;
+            border-radius: 8px;
+            padding: 1%;
+            text-align: center;
+            animation-name: colorChange;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+            transition: 1s;
+        }
+        @keyframes colorChange{
+            0%{
+                transition: 1s;
+                text-shadow: 1px 2px 2px black;
+                transform: scale(1.0);
+                background: linear-gradient(to right,crimson, gold);  
+                color: white;
+            }
+            50%{
+                transform: scale(1.1);
+                transition: 1s;
+                text-shadow: 1px 2px 2px black;
+                color: white;
+                background-color: -45deg,red, gold;    }
+            100%{
+                text-shadow: 1px 2px 2px black;
+                transform: scale(1.0);
+                background: linear-gradient( to left,crimson, red);
+                transition: 1s;
+                color: white;
+            }
+            
+        }
+        #deals{
+            padding: 1%;
+            overflow: hidden;
+            display: flex;
+            background-color: white;
+            border-radius: 20px;
+            width: 95%;
+            height:110px;
+            margin-left: 0.3%;
+            
+        }
+        #deals a{
+            overflow: hidden;
+            border-radius: 16px;
+            width: 90px;
+            height: 100px;
+            padding-left: 1px;
+            margin-inline: 5px;
+            cursor: pointer;
+            transition: 0.8s;
+        }
+        #deals a p{
+            background-color: rgba(160, 2, 34, 0.322);
+            width:90%;
+            transition: 0.8s;
+            padding: 4px;
+            text-align: center;
+            font-family:monospace;
+            font-weight: 100;
+            color: aliceblue;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        
+        }
+        #sets{
+            text-transform: capitalize;
+            font-family: monospace;
+            display: flex;
+            margin-left: 8%;
+            overflow: hidden;
+            margin-top: 15px;
+            width: 80%;
+            padding: 2%;
+            display: block;
+            background-color: #fafafa;
+            border-radius: 24px;
+        }
+        #sets div{
+            padding: 1%;
+            margin-left: 22%;
+            width: 180px;
+            overflow: hidden;
+            border-radius: 24px;
+            margin-top: 20px;
+            box-shadow: -1px 7px 10px rgba(0, 0, 0, 0.158);
+            display: block;
+        }
+        #end{
+            overflow: hidden;
+        }
+        #end table{
+            padding: 3px 3px;
+            align-items: center;
+            color: aliceblue;
+            margin: auto;
+            overflow: hidden;
+            margin-left: -7%;
+            vertical-align: middle;
+            text-transform: capitalize;
+            font-family: monospace;
+            width: 20%;
+        }
+        #end tr td {
+            overflow: hidden;
+            font-size: 13px;
+            padding: 3px 12px;
+        }
+        input[type='text']{
+            accent-color: rgba(185, 19, 163, 0.575);
+            border-radius: 16px;
+            padding: 5px 8px;
+            border: 1px solid rgb(231, 231, 149);
+            transition: 1.5s;
+        }
+        table tr td a{
+            padding: 1px 2px;
+            overflow: hidden;
+            color: aliceblue;
+            font-family:monospace;
+            font-size: 13px;
+        }
+        table tr td {
+            overflow: hidden;
+            text-align: center;
+            color: rgb(233, 168, 27);
+            font-weight: 700;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            padding: 4px 1px;
+        }
+        table td h3, #top{
+            display: none;
+        }
+        #logo{
+            border: 2px solid aliceblue;
+            border-radius: 13px ;
+            background-color: aliceblue;
+            width: fit-content;
+            padding: 8px;
+            margin-left: 27%;
+        }
+        #lst tr td{
+            overflow: auto;
+        }
+        #lst tr td a{
+            display: none;
+        }
+        span{
+            transition: 100ms;
+            color: white;
+        }
+        span:active{
+            transition: 100ms;
+            filter: drop-shadow(5px 20px 40px purple);
+            color: #818181;
+        }
+       #conn #navbar ul{
+            background-color: rgba(70, 4, 54, 0.123);
+            width: 0px;
+            backdrop-filter: blur(20px);
+            display: block;
+            color: #818181;
+            transition: 1s;
+            height: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            
+            
+            overflow-x: hidden;
+            padding-top: 40px ;
+        }
+        #conn #navbar ul a{
+            /*border: 1px solid #818181;
+            border-left: none;
+            border-right: none; */
+            display: block;
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-decoration: none;
+            color: #fafafa;
+            /* text-align: center; */
+            padding: 2px 20px;
+            
+        }
+        #conn #navbar ul a:active{
+        filter: drop-shadow(5px 20px 40px purple);
+        }
+        #closebtn{
+            position: relative;
+            color: #818181;
+            top: 0;
+            right:30px;
+            margin-left: 80%;
+            font-size: 40px;
+            cursor: pointer;
+        }
+        #closebtn:hover{
+            color: #f1f1f1;
+            transition: 1.5s;
+        }
+        #ad1 img:active{
+            cursor: pointer;
+            overflow: hidden;
+            transform: scale(0.9);
+            filter: drop-shadow(-5px 20px 40px rgba(0, 255, 170, 0.432));
+        
+        }
+        table tr td a:hover{
+            color: rgb(255, 187, 0);
+            overflow: hidden;
+            margin: 0%;
+            transition: 0.7s;
+           
+            
+        }
+        #sets div #btn2:active{
+            opacity: 0.8;
+            transform: scale(1.0) rotate(-360deg);
+            border: 2px solidrgb(53, 1, 53);
+            color: #fafafa;
+            background-color: rgba(53, 1, 53, 0.527);
+        }
+        #sets div button:active{
+            transition: 0.7s;
+            background-color: transparent;
+            backdrop-filter: blur(20px);
+            color: rgb(53, 1, 53);
+            border: 2px solid rgb(53, 1, 53);
+        }
+        #sets div img:active{
+            transform: scale(0.9);
+            transition: 0.6s;
+        }
+        .search:active{
+            transition: 0.7s;
+            filter: drop-shadow(-5px 20px 40px rgba(0, 255, 149, 0.288));
+        
+        }
+        #conn #navbar span, #closebtn{
+            display: flex;
+        }
+        #midset, #sets{
+            display: none;
+        }
+        #android{
+            text-transform: capitalize;
+            font-family: monospace;
+            display: grid;
+            margin: auto;
+            overflow: hidden;
+            margin-top: 10px;
+            width: 190px;
+            padding: 20px;
+            background-color: #fafafa;
+            border-radius: 24px;
+        }
+        #android div p{
+            color: black;
+            padding: 0%;
+            margin-top: -15px;
+            
+            text-align: left;
+            font-family: monospace;
+        }
+        #android div{
+            padding: 4px 7px;
+            margin-left: 1%;
+            width: fit-content;
+            margin-bottom: 20px;
+            height: 213px;
+            border-radius: 24px;
+            box-shadow: -1px 7px 10px rgba(0, 0, 0, 0.158);
+            
+        }
+        #android div img:hover{
+            transform: scale(0.9);
+            transition: 0.6s;
+        }
+        #android div img{
+        transition: 0.5s;
+        cursor: pointer;
+        object-fit: cover;
+        margin-left: 10px;
+        border-radius: 16px;
+        width: 130px;
+        height: 150px;
+        }
+        #android div button{
+        background-color: rgb(53, 1, 53);
+        color: #fafafa;
+        text-transform: capitalize;
+        padding: 6px 18px;
+        border: 2px solid rgb(53, 1, 53);
+        cursor: pointer;
+        margin-top: -15px;
+        transition: 0.7s;
+        border-radius: 10px;
+    }
+    #android div button:hover{
+        transition: 0.7s;
+        background-color: transparent;
+        backdrop-filter: blur(20px);
+        color: rgb(53, 1, 53);
+        border: 2px solid rgb(53, 1, 53);
+    }
+    #android div #btn2{
+        border: 2px solid rgb(53, 1, 53);
+        background: transparent;
+        height: 35px;
+        width: 35px;
+        overflow: hidden;
+        padding: 0%;
+        transform: scale(0.9)
+    }
+    #android div #btn2 img{
+        width: 20px;
+        margin-left: 1px;
+    
+        margin-top: -15px;
+        filter: drop-shadow(4px 10px 5px rgb(53, 1, 53));
+        height: 20px;
+    }
+    #android div #btn2:hover{
+        transform: rotateY(180deg);
+        border: 2px solidrgb(53, 1, 53);
+        color: #fafafa;
+        background-color: rgba(53, 1, 53, 0.527);
+    }
+    #super{
+        background-color: #fafafa;
+        display: flex;
+        margin: auto;
+        
+    }
+        }
+       

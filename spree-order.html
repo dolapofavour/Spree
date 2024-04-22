@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER COMPLETION</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: #333;
+            
+        }
+        .contorder{
+            color: aliceblue;
+            background: url(pexels-angela-roma-7319118.jpg);
+            background-size: cover;
+            width: 400px;
+            height: max-content;
+            padding: 5px;
+            margin: auto;
+            margin-top: 5%;
+            border-radius: 5px;
+            align-items: center;
+        }
+        .contorder1{
+            border-radius: 5px;
+            background-color: #1a191980;
+            margin: auto;
+            padding: 10px;
+            width: max-content;
+            height: max-content;
+            align-items: center;
+            
+        }
+        input[type='text']{
+            border:  1px solid aliceblue;
+            background-color: rgba(255, 255, 255, 0);
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            padding: 5px 0px 4px 0px;
+            color: aliceblue;
+        }
+        .contorder input[type='button']{
+            padding:5px;
+            margin: 5px 0px 5px 35%;
+            color: white;
+            background-color: black;
+            border: none;
+            font-weight: 700;
+            border-radius: 3px;
+            padding: 5px 30px 5px 30px;
+            border: 2px solid black;
+        }
+        .contorder input[type='button']:hover{
+            opacity: 0.7;
+            
+        }
+    </style>
+<form action="">
+    <div class="contorder">
+        <div class="contorder1">
+           <p> kindly complete to proceed... </p>
+            <label for="quantity">Quantity</label>
+            <input type="number" placeholder="optional"><br><br>
+            <!-- <input type="range" type="color"><br> -->
+            <label for="method">Payment method:</label><br>
+            <input type="radio" name="pay" id="cards">
+            <label for="cards">Cards</label>
+            <input type="radio" name="pay" id="online">
+            <label for="online">Online/Transfer</label>
+            <input type="radio" name="pay" id="delivery">
+            <label for="delivery"> Cash on Delivery</label>
+            <br>
+            <br>
+            <label for="name">Reciever's Name:</label><br>
+            <input type="text" placeholder="Reciever"><br><br>
+            <label for="phone">Phone number:</label><br><br>
+            <input type="text" placeholder="+234*******09"><br><br>
+            <label for="address">Address for Delivery:</label><br>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+           
+        </div>
+           <a href="fb,test.html"> <input type="button" value="Order"></a>
+    </div>
+</form>
+</body>
+</html>

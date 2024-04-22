@@ -1,0 +1,122 @@
+
+body{
+
+    /* background:linear-gradient(aliceblue, #fafafa); */
+    background: url('pexels-karolina-grabowska-4968391.jpg');
+    background-size: contain;
+    
+}
+h1{
+    background-color: purple;
+    width: auto;
+    padding:20px 0px 10px 0px;
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#prof{
+    padding: 0%;
+    display: flex;
+    background: #00000041;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 78%;
+    border-radius: 60%;
+    margin: auto;
+    align-items: center;
+
+    
+}
+#prof input[type='button']{
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 0.8s;
+    padding: 7px;
+    background-color: purple;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: none;
+    width: 160px;
+}
+#prof input[type='button']:hover{
+    width: 200px;
+    background-color: rgb(39, 2, 39);
+    transition: 0.8s;
+}
+#prof img{
+    transition: 0.8s;
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    
+    border-radius: 40px;
+    border: 2px solid #ccc;
+    
+}
+#prof img:hover{
+    transform: scale(0.95);
+    transition: 0.8s;
+    border: 2px solid purple;
+    filter: drop-shadow(5px 20px 40px purple);
+}
+h3{
+    color: aliceblue;
+    background-color: purple;
+    width: max-content;
+    padding: 8px;
+}
+.spreecont{
+    background-color: rgba(2, 15, 26, 0.829);
+    padding: 15px;
+    margin: auto;
+    color: aliceblue;
+    width: 95%;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.just1{
+    text-align: justify;
+    
+}
+#forspe input[type='button']{
+font-size: 20px;
+margin: auto;
+margin: 0% 40%;
+cursor: pointer;
+padding: 5px;
+background: linear-gradient(purple, #222);
+margin-bottom: 30px;
+color: aliceblue;
+border: 1px solid ;
+width: 200px;
+border-radius: 10px;
+}
+#forspe input[type='button']:hover{
+    opacity: 0.8;
+}
+html{
+    scroll-behavior: smooth;
+    transition: 1s;
+    
+}
+@media only screen and (max-width:760px){
+    h1{
+        width: 80%;
+        margin: auto;
+    }
+    #prof{
+        margin: auto;
+        width: 92%;
+    }
+    .spreecont{
+        margin: 0%;
+        
+        width: 95%;
+        overflow: hidden;
+    }
+}

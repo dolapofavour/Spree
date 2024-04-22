@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPREE</title>
+    <link rel="icon" href="spreelgl.png">
+    <link rel="stylesheet" href="spree-all.css">
+</head>
+<body>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        body{
+            padding: 1% 15%;
+            margin: auto;
+            background:url('pexels-angela-roma-7319118.jpg');
+            
+            color: black;
+            background-position: 0% 60%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            margin-left: 20px;
+        }
+        span, h1{
+            font-family: monospace;
+            color: #fafafa;
+        }
+        span:hover{
+            color: #818181;
+        }
+        .mybar1{
+            background-color: rgba(0, 0, 0, 0.555);
+            width: fit-content;
+            display: block;
+            color: #818181;
+            transition: 1s;
+            border-radius: 16px;
+            height: 100%;
+            position: fixed;
+            z-index: 0;
+            margin-top: 30px;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            padding-top: 40px ;
+        }
+        .mybar1 a{
+            /*border: 1px solid #818181;
+            border-left: none;
+            border-right: none; */
+            display: block;
+            font-size: 30px;
+            font-family: monospace;
+            text-decoration: none;
+            color: #818181;
+            /* text-align: center; */
+            padding: 8px 8px 8px 20px;
+            
+        }
+        .mybar1 a:hover{
+            color: rgba(240, 248, 255, 0.397);
+            transition: 1s;
+
+        }
+        #closebtn{
+            position: relative;
+            color: #818181;
+            top: 0;
+            right:30px;
+            margin-left: 80%;
+
+        }
+        #closebtn:hover{
+            color: #f1f1f1;
+            transition: 1.5s;
+        }
+        #cont{
+            background: rgba(0, 0, 0, 0.226);
+            margin: auto;
+            box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.253);
+            margin-top: 50px;
+            width: 400px;
+            border-radius: 16px;
+           backdrop-filter: blur(20px);
+            padding: 10px 15px;
+        }
+        #cont ul li{
+            text-align: center;
+            list-style-type: none;
+            padding: 10px 20px;
+        }
+        #cont ul li a{
+            color: #fafafa;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: capitalize;
+            text-align: center;
+            transition: 1s;
+        }
+        #cont ul li a:hover{
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            padding: 3px 20px;
+            
+          
+            transition: 1s;
+            color: #818181;
+            
+            
+        }
+        @media screen and (max-height: 780px) {
+        .mybar1 {margin: 15px;}
+        .mybar1 a {font-size: 18px;}
+        
+        
+        .right{
+            float: right;
+            margin-right: 1rem;
+            color: #f1f1f1;
+            
+        }
+        #closebtn{
+            cursor: pointer;
+            position: relative;
+            color: #fafafa;
+            top: 0;
+            right:30px;
+            margin-left: 80%;
+
+        }
+        .lor2{
+            color: #7c7c7c;
+        }
+        .left{
+            float: left;
+            margin-right: 1rem;
+            color: #f1f1f1;
+            
+        }
+        .mybar1{
+            backdrop-filter: blur(10px);
+            background-color: rgba(0, 0, 0, 0.555);
+            width: 0px;
+            display: block;
+            color: #fafafa;
+            transition: 1s;
+            height: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            padding-top: 40px ;
+        }
+        .mybar1 a{
+            
+            display: block;
+            font-size: 20px;
+            font-family: monospace;
+            text-decoration: none;
+            color: #fafafa;
+            padding: 8px 8px 8px 20px;
+        }
+       #rotate{
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(45deg,transparent, rgba(5, 3, 146, 0.61), transparent);
+        margin: auto;
+        border-radius: 50%;
+        cursor: pointer;
+        border-top: 25px solid red;
+        border-bottom: 25px solid rgb(4, 0, 255);
+        animation-name: rotate;
+        animation-duration: 22s;
+        transition: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+       }
+       @keyframes rotate{
+        0%{
+            transform: rotate(-3600deg) scale(1.1);
+        }
+        25%{
+            transform: rotate(3109deg) scale(1.0);
+        }
+        50%{
+            transform: rotate(180deg) scale(1.2);
+        }
+        75%{
+            transform: rotate(-80deg) scale(1.3);
+        }
+        100%{
+            transform: rotate(360deg) scale(1.1);
+        }
+       }
+        
+        #hello{
+            color: #f1f1f1;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        #cont{
+            background: rgba(0, 0, 0, 0.226);
+            margin-left: -13%;
+            box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.253);
+            margin-top: 50px;
+            width: 250px;
+            border-radius: 16px;
+           backdrop-filter: blur(20px);
+            padding: 10px 15px;
+        }
+        
+    }
+    </style>
+    <h1 id="hello">HOME</h1>
+    
+        
+        <div class="mybar1" id="mybar1">
+             <a onclick="closeside()" id="closebtn">&times;</a>
+             <a href="spree_LGN.html">Clients Status</a>
+             <a href="Screenshot_20230323-120344.jpg" width="200" >Contact</a>
+             <a href="spreeAboutUs.html">About</a>
+             <a href="">Services</a>
+             <a href="spreeAboutUs.html">Return policy</a>
+        </div>
+        <span  style="font-size: 30px;cursor: pointer;" onclick="openside()">&#9776; OPEN</span>
+        
+        <script>
+         function openside(){
+             document.getElementById("mybar1").style.width="250px";
+         }
+         function closeside(){
+             document.getElementById("mybar1").style.width="0px";
+         }
+        </script>
+        <br>
+        <div id="cont">
+            <ul>
+                <li><a href="men.html">men</a></li>
+                <li><a href="women.html">women</a></li>
+                <li><a href="phone.html">phones</a></li>
+                <li><a href="footwear.html">footwear</a></li>
+                <li><a href="casual.html">casual</a></li>
+                
+            </ul>
+        </div>
+        <br><br>
+        <a href="spree1.html"><div id="rotate"></div></a>
+    
+</body>
+</html>

@@ -1,0 +1,206 @@
+body{
+    background: url('pexels-angela-roma-7319118.jpg');
+    background-size: cover;
+    background-position: 0% 60%;
+}   
+#cont1{
+    font-family: monospace;
+    border-radius: 24px;
+    /* box-shadow: 2px 3px 4px 10px  rgba(0, 0, 0, 0.062); */
+    margin: auto;
+    margin-top: 2%;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.274);
+    width: 400px;
+    height: 590px;
+    padding: 10px;
+    padding-bottom: 30px;
+    background-size: cover;
+}
+#cont1 form{
+    
+    font-family: monospace;  
+    color: aliceblue;
+    display: block;
+    margin: auto;
+    background: transparent;
+    width: 320px;
+    height: 420px;
+    padding: 16px;
+    font-size: 25px;
+}
+input[type='text'],input[type='number'], input[type='password'], input[type='email']{
+    width: 80%;
+    accent-color: rgba(165, 42, 42, 0.233);
+    background-color: rgba(17, 17, 16, 0.384);
+    border: none;
+    padding: 16px 27px;
+    background: none;
+    background-color: #00000071;
+    color: aliceblue;
+    /* border-left: 2px solid white; */
+    border-radius: 13px;
+/*         border-top-right-radius: 18px;
+    border-top-left-radius: 18px; */
+    
+}
+input[type='text']:active,input[type='number']:active,input[type='email']:active, input[type='password']:active{
+    background-color: rgba(127, 208, 255, 0.096);
+}
+fieldset{
+    height: 560px;
+    margin-top: 4px;
+    border-radius: 16px;
+    color: white;
+    border:1px solid rgb(165, 172, 69);
+    animation-name: colorchange;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange{
+    0%{
+        border-color: rgba(255, 123, 0, 0.336);
+    }
+    25%{
+        border-color: rgba(0, 255, 170, 0.267);
+    }
+    50%{
+        border-color: rgba(255, 72, 0, 0.288);
+    }
+    75%{
+        border-color: rgba(145, 255, 0, 0.253);
+    }
+    100%{
+        border-color: rgba(255, 123, 0, 0.281);
+    }
+}
+
+input[type='submit']{
+    width: 97%;
+    background: transparent;
+    backdrop-filter: blur(2px);
+    border: 2px solid #fff;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 45px;
+    transition: 0.9s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 0.5%;
+}
+input[type='submit']:hover{
+background-color: rgb(19, 17, 18);
+border: none;
+transition: 0.8s;
+/* box-shadow: 2px 3px 2px 30px rgba(211, 6, 166, 0.219); */
+cursor: pointer;
+}
+td{
+    
+    font-size: 14px;
+}
+label,  input{
+    cursor: pointer;
+    font-size: 17px;
+    padding:10px 20px ;
+} 
+a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding: 0%;
+    margin-top: 1%;
+    margin-bottom: -5%;
+    text-transform: capitalize;
+    color: #fff;
+    margin-left: 10%;
+    overflow: hidden;
+    transition: 1s;
+}
+h3:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 1s;
+    transform: rotate(360deg);
+    width: fit-content;
+}
+a{
+    padding: 8px 20px;
+}
+@media only screen and (max-width:760px){
+    body{
+background: url('pexels-darina-belonogova-8788781.jpg');
+
+background-size: cover;
+background-repeat: no-repeat;
+}   
+
+input[type='submit']{
+width: 97%;
+backdrop-filter: blur(2px);
+color: aliceblue;
+border-radius: 10px;
+cursor: pointer;
+height: 45px;
+transition: 0.9s;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-left: 0.5%;
+background-color: rgb(20, 19, 20);
+border: none;
+}
+input[type='submit']:active{
+border: 1px solid #fff;
+background: #c4c4c4;
+color: black;
+filter: drop-shadow(5px 20px 40px black);
+transition: 0.8s;
+/* box-shadow: 2px 3px 2px 30px rgba(211, 6, 166, 0.219); */
+cursor: pointer;
+}
+
+#cont1{
+border-radius: 24px;
+/* box-shadow: 2px 3px 4px 10px  rgba(0, 0, 0, 0.062); */
+margin: auto;
+margin-top: -15%;
+backdrop-filter: blur(2px);
+background-color: rgba(0, 0, 0, 0.349);
+width: 90%;
+height: auto;
+padding: 10px;
+padding-bottom: 30px;
+background-size: cover;
+}
+#cont1 form{
+font-family: Verdana, Geneva, Tahoma, sans-serif;  
+color: aliceblue;
+display: block;
+margin: auto;
+background: transparent;
+width: 85%;
+
+padding: 16px;
+font-size: 25px;
+}
+fieldset{
+
+margin-top: 4px;
+border-radius: 16px;
+color: white;
+border:3px solid rgb(199, 201, 182);
+
+}
+
+#cont1 fieldset form #dude{
+padding: 8px 20px;
+}
+
+}

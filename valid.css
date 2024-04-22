@@ -1,0 +1,117 @@
+body{
+    background-color: #cfcfcf;
+}
+#con1{
+    margin: auto;
+    margin-top: 13%;
+    width: 30%;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: monospace;
+    padding: 2%;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.13);
+    border-radius: 16px;
+    background-color: rgb(246, 249, 252);
+}
+#cle img{
+    width:50px;
+    margin: auto;
+    background-color: darkgreen;
+    height: auto;
+    padding: 4% 2%;
+    border-radius: 50%;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.164);
+    animation-name: blink;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-duration: 260ms;
+    animation-iteration-count: infinite;
+}
+@keyframes blink{
+    0%{transition: 0.2s;
+        background: linear-gradient(20deg,darkgreen, darkgreen, rgb(131, 165, 69));
+    }
+    25%{
+        transition: 0.2s;
+        background: linear-gradient(45deg,darkgreen, darkgreen, rgb(131, 165, 69));
+    }
+    50%{
+        transition: 0.2s;
+        background: linear-gradient(90deg,darkgreen, darkgreen, rgb(131, 165, 69));
+    }
+    75%{
+        transition: 0.2s;
+        background: linear-gradient(184deg,darkgreen, darkgreen, rgb(131, 165, 69));
+    }
+    100%{
+        transition: 0.2s;
+        background: linear-gradient(360deg,darkgreen, darkgreen, rgb(131, 165, 69));
+    }
+}
+button{
+    background-color: black;
+    color: #cfcfcf;
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: 1s;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.267);
+}
+button:hover{
+    background: green;
+    width: 150px;
+    transition: 1s;
+}
+@media only screen and (max-width:800px){
+    #con1{
+    margin: auto;
+    margin-top: 30%;
+    width: 80%;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: monospace;
+    padding: 2%;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.13);
+    border-radius: 16px;
+    background-color: rgb(246, 249, 252);
+}
+body{
+    background-color: #f3f2f2;
+}
+#cle img{
+    width:50px;
+    margin: auto;
+    background-color: darkgreen;
+    height: auto;
+    padding: 4% 2%;
+    border-radius: 50%;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.164);
+    animation-name: blink;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-duration: 260ms;
+    animation-iteration-count: infinite;
+}
+button{
+    background-color: black;
+    color: #cfcfcf;
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: 1s;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.267);
+}
+button:active{
+    background: green;
+    width: 150px;
+    transition: 1s;
+}
+}

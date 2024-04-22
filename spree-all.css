@@ -1,0 +1,563 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#super, #android{
+    display: none;
+}
+
+#lolo{
+    margin: 1%;
+    padding: 0%;
+    text-align: left;
+    background-color: rgb(54, 1, 54);
+    margin-left:45px;
+    padding: 3px 0px;
+    width: 16%;
+    font-size:160%;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+input[type='search']{
+    text-transform: capitalize;
+    background-color: #fafafa;
+    border-radius: 16px;
+    border:none;
+    color: black;
+    margin-top: 30px;
+    accent-color: rgb(53, 1, 53);
+    width: 250px;
+    padding: 15px 20px;
+    
+    box-shadow: 1px 2px 3px 5px rgba(73, 45, 45, 0.11);
+}
+#phoneadv #dark{
+    background: linear-gradient(transparent, rgb(0, 0, 0));
+    width: 100%;
+    height: 300px;
+}
+#phoneadv #dark  #d1 span, p{
+    color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+#phoneadv #dark  #d1 span{
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#phoneadv #dark #d1 p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#phoneadv #dark button{
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 130px;
+    height: 43px;
+    background-color: rgba(226, 0, 0, 0.856);
+    color: #fafafab2;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+#phoneadv #dark button:hover{
+    border: 2px solid  rgb(165, 2, 2);
+    background-color: rgba(255, 0, 0, 0.212);
+    transition: 0.4s; 
+}
+body{
+    background-color: rgb(228, 227, 227);
+}
+#sets{
+    text-transform: capitalize;
+    font-family: monospace;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 15px;
+    width: 80%;
+    padding: 2%;
+    background-color: #fafafa;
+    border-radius: 24px;
+}
+#sets div p{
+    color: black;
+    text-align: left;
+    font-family: monospace;
+}
+#sets div{
+    padding: 1.5%;
+    margin-left: 5.5%;
+    border-radius: 24px;
+    box-shadow: -1px 7px 10px rgba(0, 0, 0, 0.158);
+    
+}
+#sets div img:hover{
+    transform: scale(0.9);
+    transition: 0.6s;
+}
+#sets div img{
+transition: 0.5s;
+cursor: pointer;
+object-fit: cover;
+border-radius: 16px;
+width: 160px;
+height: 190px;
+}
+#sets div button{
+    background-color: rgb(53, 1, 53);
+    color: #fafafa;
+    text-transform: capitalize;
+    padding: 6px 18px;
+    border: 2px solid rgb(53, 1, 53);
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+#sets div button:hover{
+    transition: 0.7s;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color: rgb(53, 1, 53);
+    border: 2px solid rgb(53, 1, 53);
+}
+#sets div #btn2{
+    border: 2px solid rgb(53, 1, 53);
+    background: transparent;
+    height: 35px;
+    width: 35px;
+    padding: 0%;
+    transform: scale(0.9)
+}
+#sets div #btn2 img{
+    width: 24px;
+    margin-top: -15px;
+    filter: drop-shadow(4px 10px 5px rgb(53, 1, 53));
+    height: 20px;
+}
+#sets div #btn2:hover{
+    transform: rotateY(180deg);
+    border: 2px solidrgb(53, 1, 53);
+    color: #fafafa;
+    background-color: rgba(53, 1, 53, 0.527);
+}
+#phoneadv #dark table{
+width: 90%;
+    margin: auto;
+}
+#phoneadv #dark table tr td{
+text-align: left;
+    width: 40%;
+    padding: 10px;
+}
+#phoneadv #dark table tr td #prod legend{
+    margin: auto;
+    text-shadow: 2px 1px 2px black;
+    padding: 0px 20px;
+    margin-top: 25px;
+    color: #fafafa;
+    text-transform: capitalize;
+    font-family: Impact, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#phoneadv #dark table tr td #prod ul li{
+    margin-left: 30%;
+    font-size: 20px;
+    align-items: center;
+    font-family: monospace;
+    cursor: pointer;
+    text-transform: capitalize;
+    padding: 5px 0px ;
+    color: #fafafa;
+    width: 60%;
+    list-style-type: none;
+    transition: 0.7s;
+}
+#phoneadv #dark table tr td #prod ul li:hover{
+    color: #afafaf;
+    text-shadow: 1px 10px 10px rgb(15, 0, 0);
+    transition: 1s;
+}
+ #phoneadv #dark table tr td #prod fieldset {
+ width: 60%;
+ border-radius: 24px;
+ border: 1px solid #4444;
+ margin: auto;
+ background-color: rgba(0, 0, 0, 0.322);
+ padding: 5px;
+ }
+
+ #end{
+background-color: purple;
+color: aliceblue;
+}
+#logo{
+border: 2px solid aliceblue;
+border-radius: 13px ;
+background-color: aliceblue;
+width: fit-content;
+padding: 8px;
+margin-left: 42.5%;
+}
+#logo img{
+aspect-ratio: 2/1;
+padding: 0%;
+width: 40px;
+height: 40px;
+transition: 0.9s;
+}
+#logo img:hover{
+transform: rotate(360deg) scale(0.3);
+transition: 0.9s;
+} 
+p{
+text-align: center;
+padding:2% 2%;
+}
+#terms{
+padding: 2%;
+
+
+}
+table tr td a:hover{
+color: rgb(255, 187, 0);
+overflow: hidden;
+margin: 0%;
+transition: 0.7s;
+
+
+}
+#end table{
+
+
+padding: 3px 3px;
+align-items: center;
+color: aliceblue;
+margin: auto;
+overflow: hidden;
+vertical-align: middle;
+text-transform: capitalize;
+font-family: monospace;
+width: 70%;
+}
+input[type='text']{
+accent-color: rgba(185, 19, 163, 0.575);
+border-radius: 16px;
+padding: 8px 20px;
+border: 1px solid rgb(231, 231, 149);
+transition: 1.5s;
+}
+#end input[type='text']:hover{
+box-shadow: -5px 20px 40px rgba(241, 111, 4, 0.911) ;
+transition: 1.5s;
+}
+a{
+text-decoration: none;
+}
+
+#end hr{
+margin: auto;
+color: white;
+}
+#end tr td {
+overflow: hidden;
+padding: 8px 30px;
+}
+#lst tr td a{
+font-family: monospace;
+color: white;
+overflow: hidden;
+}
+#lst tr td a:hover{
+border-right: 0px none;
+border-left: 0px none;
+overflow: hidden;
+color: chocolate;
+}
+table tr td {
+overflow: hidden;
+text-align: center;
+color: rgb(233, 168, 27);
+font-weight: 700;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 16px;
+padding: 7px 55px;
+}
+table tr td a{
+padding: 2px 4px;
+overflow: hidden;
+color: aliceblue;
+font-family:monospace;
+font-size: 15px;
+}
+/* for phone
+for phone
+for phone
+for phone
+for phone
+for phone */
+@media only screen and (max-width:800px){
+    #lolo{
+        text-align: center;
+        padding: 5px;
+        
+        background-color: rgb(54, 1, 54);
+        margin-left:45px;
+        
+        width: max-content;
+        font-size:160%;
+        text-align: center;
+        border-radius: 10px;
+        
+    }
+    input[type='search']{
+        text-transform: capitalize;
+        background-color: #fafafa;
+        border-radius: 16px;
+        border:none;
+        color: black;
+        margin-top: 30px;
+        accent-color: rgb(53, 1, 53);
+        width: 150px;
+        padding: 10px 3px;
+        box-shadow: 1px 2px 3px 5px rgba(73, 45, 45, 0.11);
+    }
+    #phoneadv #dark  #d1 span{
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #phoneadv #dark button{
+        padding: 1px 5px;
+        border-radius: 10px;
+        border: none;
+        width: fit-content;
+        height: 25px;
+       margin-top: 4px;
+        background-color: rgba(226, 0, 0, 0.856);
+        color: #fafafab2;
+        text-transform: capitalize;
+        cursor: pointer;
+        font-family: sans-serif;
+        transition: 0.5s;
+    }
+    #sets{
+        text-transform: capitalize;
+        font-family: monospace;
+        display: flex;
+        margin-left: 8%;
+        overflow: hidden;
+        margin-top: 15px;
+        width: 80%;
+        padding: 2%;
+        display: block;
+        background-color: #fafafa;
+        border-radius: 24px;
+    }
+    #sets div{
+        padding: 1%;
+        margin-left: 22%;
+        width: 180px;
+        overflow: hidden;
+        border-radius: 24px;
+        margin-top: 20px;
+        box-shadow: -1px 7px 10px rgba(0, 0, 0, 0.158);
+        display: block;
+    }
+    #end{
+        overflow: hidden;
+    }
+    #end table{
+        padding: 3px 3px;
+        align-items: center;
+        color: aliceblue;
+        margin: auto;
+        overflow: hidden;
+        margin-left: -2.5%;
+        vertical-align: middle;
+        text-transform: capitalize;
+        font-family: monospace;
+        width: 20%;
+    }
+    #end tr td {
+        overflow: hidden;
+        font-size: 13px;
+        padding: 3px 12px;
+    }
+    input[type='text']{
+        accent-color: rgba(185, 19, 163, 0.575);
+        border-radius: 16px;
+        padding: 5px 8px;
+        border: 1px solid rgb(231, 231, 149);
+        transition: 1.5s;
+    }
+    table tr td a{
+        padding: 1px 2px;
+        overflow: hidden;
+        color: aliceblue;
+        font-family:monospace;
+        font-size: 13px;
+    }
+    table tr td {
+        overflow: hidden;
+        text-align: center;
+        color: rgb(233, 168, 27);
+        font-weight: 700;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        padding: 4px 1px;
+    }
+    table td h3, #top{
+        display: none;
+    }
+    #logo{
+        border: 2px solid aliceblue;
+        border-radius: 13px ;
+        background-color: aliceblue;
+        width: fit-content;
+        padding: 8px;
+        margin-left: 27%;
+    }
+    #lst tr td{
+        overflow: auto;
+    }
+    #lst tr td a{
+        display: none;
+    }
+    #phoneadv #dark table tr td{
+        text-align: center;
+            width: 50%;
+            
+            padding: 10px;
+        }
+        #phoneadv #dark table tr td #prod legend{
+            margin: auto;
+            text-shadow: 2px 1px 2px black;
+            padding: 0px 5px;
+            margin-top: -2px;
+            color: #fafafa;
+            text-transform: capitalize;
+            font-family: Impact, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }  
+        #phoneadv #dark table tr td #d1 p{
+            display: none;
+        }
+        #phoneadv #dark table tr td #prod ul li{
+            margin-left: 20%;
+            font-size: 12px;
+            align-items: center;
+            
+            font-family: monospace;
+            cursor: pointer;
+            text-transform: capitalize;
+            padding: 5px 0px ;
+            color: #fafafa;
+            width: 60%;
+            list-style-type: none;
+            transition: 0.7s;
+        } 
+        #phoneadv #dark table tr td #prod fieldset {
+            width: 60%;
+            border-radius: 24px;
+            border: 1px solid #4444;
+            margin: auto;
+            background-color: rgba(0, 0, 0, 0.322);
+            padding: 5px;
+            }
+            #midset, #sets{
+                display: none;
+            }
+            #android{
+                text-transform: capitalize;
+                font-family: monospace;
+                display: grid;
+                margin: auto;
+                overflow: hidden;
+                margin-top: 10px;
+                width: 190px;
+                padding: 20px;
+                background-color: #fafafa;
+                border-radius: 24px;
+            }
+            #android div p{
+                color: black;
+                padding: 0%;
+                margin-top: -15px;
+                
+                text-align: left;
+                font-family: monospace;
+            }
+            #android div{
+                padding: 4px 7px;
+                margin-left: 1%;
+                width: fit-content;
+                margin-bottom: 20px;
+                height: 213px;
+                border-radius: 24px;
+                box-shadow: -1px 7px 10px rgba(0, 0, 0, 0.158);
+                
+            }
+            #android div img:hover{
+                transform: scale(0.9);
+                transition: 0.6s;
+            }
+            #android div img{
+            transition: 0.5s;
+            cursor: pointer;
+            object-fit: cover;
+            margin-left: 10px;
+            border-radius: 16px;
+            width: 130px;
+            height: 150px;
+            }
+            #android div button{
+            background-color: rgb(53, 1, 53);
+            color: #fafafa;
+            text-transform: capitalize;
+            padding: 6px 18px;
+            border: 2px solid rgb(53, 1, 53);
+            cursor: pointer;
+            margin-top: -15px;
+            transition: 0.7s;
+            border-radius: 10px;
+            }
+            #android div button:hover{
+            transition: 0.7s;
+            background-color: transparent;
+            backdrop-filter: blur(20px);
+            color: rgb(53, 1, 53);
+            border: 2px solid rgb(53, 1, 53);
+            }
+            #android div #btn2{
+            border: 2px solid rgb(53, 1, 53);
+            background: transparent;
+            height: 35px;
+            width: 35px;
+            overflow: hidden;
+            padding: 0%;
+            transform: scale(0.9)
+            }
+            #android div #btn2 img{
+            width: 20px;
+            margin-left: 1px;
+            
+            margin-top: -15px;
+            filter: drop-shadow(4px 10px 5px rgb(53, 1, 53));
+            height: 20px;
+            }
+            #android div #btn2:hover{
+            transform: rotateY(180deg);
+            border: 2px solidrgb(53, 1, 53);
+            color: #fafafa;
+            background-color: rgba(53, 1, 53, 0.527);
+            }
+            #super{
+            background-color: #fafafa;
+            display: flex;
+            margin: auto;
+            
+            }
+            
+
+}
